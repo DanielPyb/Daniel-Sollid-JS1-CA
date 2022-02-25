@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS';
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-form{
+    margin-top: 100px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #999;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#form-group{
+    margin: 0 auto;
+}
+.validation-error{
+    display: none;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+
+.book-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 15%;
+    background-color: grey;
+    margin: 3px;
+    padding: 20px;
+}
+
+.card img{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.card h2{
+    text-align: center;
+}
+
+.loading{
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(720deg); }
+  };

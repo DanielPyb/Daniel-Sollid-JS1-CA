@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation CA</title>
+    <script src="script/contact.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <a href="index.html">return to index</a>
+    <div class="contact-form">
+        <form id="form-group">
+            <div class="">
+                <label for="name"">Name</label>
+                <input type="text" id="name">
+                <p class="validation-error" id="name-error">Please enter your name</p>
+            </div>
+            <div>
+                <label for="subject"">Subject, min 10 characters</label>
+                <input type="text" id="subject">
+                <p class="validation-error" id="subject-error">Please enter a valid subject</p>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <p class="validation-error" id="email-error">Please enter a valid email address</p>
+            </div>
+            <div>
+                <label for="address">Address min 25 characters</label>
+                <input type="text" id="address">
+                <p class="validation-error" id="address-error">Please enter a valid address</p>
+            </div>
+            <button id="btn">submit</button>
+        </form>       
+    </div>
+</body>
+</html>
