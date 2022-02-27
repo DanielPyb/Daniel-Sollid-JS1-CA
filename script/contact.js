@@ -7,6 +7,7 @@ const email = document.querySelector("#email")
 const emailError = document.querySelector("#email-error");
 const address = document.querySelector("#address")
 const addressError = document.querySelector("#address-error");
+const successText = document.querySelector(".success")
 
 function formValidation(event){
     event.preventDefault();
@@ -35,9 +36,10 @@ function formValidation(event){
     } else {
         addressError.style.display = "block";
     }
-    if(counter == 4)
-    console.log("hello") 
-    else{
+    if(counter == 4){
+        successText.style.display = "block"
+    } else {
+        successText.style.display = "none"
     }
 }
 function emailValidation(email){
@@ -46,4 +48,4 @@ function emailValidation(email){
     return emailMatch;
 }
 
-form.addEventListener("submit", formValidation)
+form.addEventListener("submit", formValidation);

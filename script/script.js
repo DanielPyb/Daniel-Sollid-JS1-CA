@@ -1,3 +1,4 @@
+
 const url= "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yAqTGlwZaUNc87lEWTS3DDdcugw7sSDB"
 const bookList = document.querySelector(".book-list")
 
@@ -21,7 +22,7 @@ async function getQuestion() {
     HTMLbooks(results);
     }
     catch(error){
-        bookList.innerHTML = "error " + error
+        bookList.innerHTML = "Error " + error
     }
 }
 
