@@ -1,11 +1,12 @@
 const detailedBook = document.querySelector(".detailed-book")
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
+// BookID will be the title of the book
 const bookID = params.get("book");
 
 document.title = bookID
 
-
+//the previous endpoint will not let one burrow further into the API so I had to use a different endpoint to find details of the book
 const url = "https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?title=" + bookID + "&api-key=yAqTGlwZaUNc87lEWTS3DDdcugw7sSDB"
 
 

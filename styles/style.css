@@ -24,6 +24,23 @@ input{
 #form-group{
     margin: 0 auto;
 }
+
+#btn{
+    font-size: 1.5rem;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-family: inherit;
+    background-color: #bc9ec7;
+    color: #4a366d;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: #4a366d;
+    color: #FAEAFF;
+}
+
 .validation-error{
     display: none;
     color: #b13c27;

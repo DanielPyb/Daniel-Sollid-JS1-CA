@@ -37,13 +37,18 @@ function formValidation(event){
         addressError.style.display = "block";
     }
     if(counter == 4){
+        //empties the value so that you can send in a new form without having to reload
         successText.style.display = "block"
+        name.value = "";
+        subject.value = "";
+        email.value = "";
+        address.value = "";
     } else {
         successText.style.display = "none"
     }
 }
 function emailValidation(email){
-    const emailPattern = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/; // taken from https://digitalfortress.tech/tips/top-15-commonly-used-regex/ as common Email ID's
+    const emailPattern = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/; // copied from https://digitalfortress.tech/tips/top-15-commonly-used-regex/ at step 3 "common Email ID's"
     const emailMatch = emailPattern.test(email);
     return emailMatch;
 }
