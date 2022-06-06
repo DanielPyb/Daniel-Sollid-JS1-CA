@@ -6,13 +6,7 @@ Compulsory Assignment for my JavaScript 1 course
 
 ## Description
 
-a course project that relies on API calls and validation".
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+a course project that relies on API calls and validation, aswell as creating HTML from JavaScript.
 
 ## Built With
 
@@ -44,7 +38,7 @@ You can also go on the livesite
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com](https://twitter.com/DanielP_Sollid)
+[My Twitter page](https://twitter.com/DanielP_Sollid)
 
 [My LinkedIn page](https://www.linkedin.com/in/pybus/)
 
