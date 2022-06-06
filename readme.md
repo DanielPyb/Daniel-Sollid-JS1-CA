@@ -1,6 +1,6 @@
 # JavaScript1 CA
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/DanielPyb/Daniel-Sollid-JS1-CA/blob/main/JS1-ca.jpg)
 
 Compulsory Assignment for my JavaScript 1 course
 
